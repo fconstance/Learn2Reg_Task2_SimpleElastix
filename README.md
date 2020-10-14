@@ -10,8 +10,8 @@ Make sure that following python librarie is installed:
 - SimpleITK with the SimpleElastix module (see https://simpleelastix.readthedocs.io/GettingStarted.html for introduction and installation)
 
 ### Running
-To lauch the code, make sure the varaible `pathData` from `SimpleElastix.py` is adapted to the actual path of the downloaded data.
-Then, launch `SimpleElastix.py`.
+To lauch the code, make sure the varaible `pathData` from `main.py` is adapted to the actual path of the downloaded data.
+Then, launch `main.py`.
 
 ### Questions
 If you have a question about the code, don't hesitate to raise an issue in the corresponding section. 

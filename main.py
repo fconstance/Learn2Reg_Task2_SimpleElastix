@@ -3,7 +3,7 @@
 #  Keosys Medical Imaging                                  #
 #  LS2N, Ecole Centrale de Nantes                          #
 #  15/09/2020 16:18                                        #
-#  SimpleElastix.py                                        #
+#  main.py                                                 #
 #  # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 

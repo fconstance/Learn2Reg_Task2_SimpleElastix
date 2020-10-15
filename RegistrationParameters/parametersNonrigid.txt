@@ -1,6 +1,3 @@
-// Example parameter file for B-spline registration
-// C-style comments: //
-
 // The internal pixel type, used for internal computations
 // Leave to float in general. 
 // NB: this is not the type of the input images! The pixel 
@@ -29,7 +26,7 @@
 // **************** Main Components **************************
 
 // The following components should usually be left as they are:
-(Registration "MultiMetricMultiResolutionRegistration")  //"MultiResolutionRegistration")  // "MultiMetricMultiResolutionRegistration")
+(Registration "MultiMetricMultiResolutionRegistration")
 (Interpolator "BSplineInterpolator")
 (ResampleInterpolator "FinalBSplineInterpolator")
 (Resampler "DefaultResampler")
@@ -45,7 +42,7 @@
 // and need to be chosen careful for each application. See manual.
 (Optimizer "AdaptiveStochasticGradientDescent")
 (Transform "BSplineTransform")
-(Metric "AdvancedNormalizedCorrelation")  //"StatisticalShapePenalty"  "TransformBendingEnergyPenalty"
+(Metric "AdvancedNormalizedCorrelation")
 (Metric0Weight 1.0)
 (Metric1Weight 1.0)
 
